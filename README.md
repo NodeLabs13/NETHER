@@ -26,7 +26,7 @@ graph TD
     classDef full fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#2e7d32;
     classDef neutral fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px,color:#616161;
 
-    subgraph TRIAL [ "🌟 TRIAL EDITION" ]
+    subgraph TRIAL_GRP ["🌟 TRIAL EDITION"]
         direction TB
         T1["✅ WiFi Deauther"]:::neutral
         T2["⚠️ Evil Twin (15 Uses)"]:::trial
@@ -35,7 +35,7 @@ graph TD
         T5["❌ Payload Injection (LOCKED)"]:::trial
     end
 
-    subgraph FULL [ "🚀 FULL VERSION" ]
+    subgraph FULL_GRP ["🚀 FULL VERSION"]
         direction TB
         F1["✅ WiFi Deauther"]:::full
         F2["✅ Evil Twin (UNLIMITED)"]:::full
