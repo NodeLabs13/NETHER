@@ -54,7 +54,7 @@ This package comes with the **Nether Flash Tool (Secure Edition)** to make insta
     -   Select the provided firmware files manually if not detected.
     -   Click **"Start Flashing"**.
 4.  **Connect to AP**:
-    -   Network: **"Nether"**
+    -   Network: **"NETHER"**
     -   Password: `superadmin`
 5.  **Access Dashboard**:
     -   Open browser: `http://1.1.1.1/`
@@ -85,6 +85,3 @@ Special thanks to:
 -   **ESP32 Deauther (Spacehuhn)**: The pioneer of ESP8266/ESP32 WiFi auditing tools.
 -   **NimBLE-Arduino**: incredible BLE library.
 
----
-
-*Built with ❤️ by Nether Team*
