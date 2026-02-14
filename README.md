@@ -20,33 +20,19 @@ The authors of this software are not responsible for any misuse, damage, or ille
 
 This is the **Trial Edition** of Nether Firmware. It allows you to test the core stability and functionality before upgrading.
 
-```mermaid
-graph TD
-    classDef trial fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#c62828;
-    classDef full fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#2e7d32;
-    classDef neutral fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px,color:#616161;
+### 🌟 Trial Edition
+-   ✅ **WiFi Deauther**: Active
+-   ⚠️ **Evil Twin**: Limited (15 Uses)
+-   ❌ **Beacon Spam**: Locked
+-   ❌ **BLE Spam**: Locked
+-   ❌ **Payload Injection**: Locked
 
-    subgraph TRIAL_GRP ["🌟 TRIAL EDITION"]
-        direction TB
-        T1["✅ WiFi Deauther"]:::neutral
-        T2["⚠️ Evil Twin (15 Uses)"]:::trial
-        T3["❌ Beacon Spam (LOCKED)"]:::trial
-        T4["❌ BLE Spam (LOCKED)"]:::trial
-        T5["❌ Payload Injection (LOCKED)"]:::trial
-    end
-
-    subgraph FULL_GRP ["🚀 FULL VERSION"]
-        direction TB
-        F1["✅ WiFi Deauther"]:::full
-        F2["✅ Evil Twin (UNLIMITED)"]:::full
-        F3["✅ Beacon Spam"]:::full
-        F4["✅ BLE Spam"]:::full
-        F5["✅ Payload Injection"]:::full
-    end
-    
-    style TRIAL fill:#ffffff,stroke:#333,stroke-width:2px
-    style FULL fill:#ffffff,stroke:#333,stroke-width:2px
-```
+### 🚀 Full Version
+-   ✅ **WiFi Deauther**: Included
+-   ✅ **Evil Twin**: **UNLIMITED**
+-   ✅ **Beacon Spam**: Included
+-   ✅ **BLE Spam**: Included
+-   ✅ **Payload Injection**: Included
 
 ---
 
@@ -68,10 +54,10 @@ This package comes with the **Nether Flash Tool (Secure Edition)** to make insta
     -   Select the provided firmware files manually if not detected.
     -   Click **"Start Flashing"**.
 4.  **Connect to AP**:
-    -   Network: **"Nether AP"**
-    -   Password: `password123`
+    -   Network: **"Nether"**
+    -   Password: `superadmin`
 5.  **Access Dashboard**:
-    -   Open browser: `http://192.168.4.1/`
+    -   Open browser: `http://1.1.1.1/`
 
 ---
 
@@ -93,7 +79,7 @@ This package comes with the **Nether Flash Tool (Secure Edition)** to make insta
 
 ## ❤️ Credits & Appreciation
 
-Special thanks to the open-source community:
+Special thanks to:
 
 -   **Picoshot**: Massive inspiration for the initial concept and functionality. Thank you for paving the way!
 -   **ESP32 Deauther (Spacehuhn)**: The pioneer of ESP8266/ESP32 WiFi auditing tools.
