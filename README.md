@@ -46,22 +46,22 @@ To activate your device MAC address for the **Full Version** or get technical su
 
 ## Antivirus Notice
 
-> **⚠️ IMPORTANT: Matikan Antivirus / Windows Defender terlebih dahulu sebelum menjalankan Flash Tool.**
+> **⚠️ IMPORTANT: Disable Antivirus / Windows Defender before running the Flash Tool.**
 
-File `Nether Flash Tool.exe` mungkin terdeteksi sebagai virus oleh beberapa antivirus. **Ini adalah False Positive** (deteksi palsu) yang umum terjadi pada semua aplikasi yang dikompilasi dari Python.
+The `Nether Flash Tool.exe` file may be detected as a virus by some antivirus software. **This is a False Positive** (false alarm) common with applications compiled from Python.
 
-Aplikasi ini **AMAN** dan **TIDAK mengandung malware**. Deteksi terjadi karena:
--   Aplikasi menggunakan teknik enkripsi internal untuk melindungi lisensi.
--   Aplikasi mengakses port serial (USB) untuk flashing firmware ke ESP32.
--   Pola ini mirip dengan perilaku malware menurut heuristic antivirus, padahal sebenarnya bukan.
+This application is **SAFE** and **DOES NOT contain malware**. Detection occurs because:
+-   The application uses internal encryption to protect its license logic.
+-   The application accesses the serial port (USB) to flash firmware to the ESP32.
+-   These patterns trigger antivirus heuristics, even though the behaviors are legitimate.
 
-**Cara menonaktifkan Windows Defender sementara:**
-1.  Buka **Windows Security** → **Virus & threat protection**.
-2.  Klik **Manage settings** di bawah "Virus & threat protection settings".
-3.  Matikan **Real-time protection**.
-4.  Jalankan Flash Tool, lalu aktifkan kembali setelah selesai.
+**How to temporarily disable Windows Defender:**
+1.  Open **Windows Security** → **Virus & threat protection**.
+2.  Click **Manage settings** under "Virus & threat protection settings".
+3.  Turn off **Real-time protection**.
+4.  Run the Flash Tool, then re-enable protection after you are done.
 
-> Anda juga bisa menambahkan folder ini ke **Exclusion List** agar tidak perlu mematikan antivirus setiap kali.
+> You can also add this folder to the **Exclusion List** so you don't have to disable antivirus every time.
 
 ---
 
@@ -69,17 +69,17 @@ Aplikasi ini **AMAN** dan **TIDAK mengandung malware**. Deteksi terjadi karena:
 
 This package comes with the **Nether Flash Tool (Secure Edition)** to make installation easy.
 
-1.  **Matikan Antivirus**: Nonaktifkan Windows Defender / antivirus lainnya (lihat bagian di atas).
+1.  **Disable Antivirus**: Turn off Windows Defender / other antivirus (see section above).
 2.  **Connect ESP32**: Plug your ESP32 board into your computer via USB.
 3.  **Open Flash Tool**: Run `Nether Flash Tool.exe` found in this folder.
 4.  **Activate Trial License**:
-    -   Klik **"Read MAC"** untuk membaca MAC Address perangkat ESP32 Anda.
-    -   Tool akan secara otomatis mendaftarkan MAC Address dan mengaktifkan lisensi **Trial**.
-    -   Pastikan status lisensi berubah menjadi **"Trial"** sebelum melanjutkan.
+    -   Click **"Read MAC"** to read your ESP32 device's MAC Address.
+    -   The tool will automatically register the MAC Address and activate the **Trial** license.
+    -   Ensure the license status changes to **"Trial"** before proceeding.
 5.  **Flash Firmware**:
-    -   Pindah ke menu **"Flash"**.
-    -   Pilih file firmware yang disediakan jika tidak terdeteksi otomatis.
-    -   Klik **"Start Flashing"** dan tunggu hingga selesai.
+    -   Switch to the **"Flash"** menu.
+    -   Select the provided firmware files manually if not detected automatically.
+    -   Click **"Start Flashing"** and wait for completion.
 6.  **Connect to AP**:
     -   Network: **"NETHER"**
     -   Password: `superadmin`
