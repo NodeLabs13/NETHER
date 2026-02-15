@@ -27,7 +27,7 @@ This is the **Trial Edition** of Nether Firmware. It allows you to test the core
 -   ❌ **BLE Spam**: Locked
 -   ❌ **Payload Injection**: Locked
 
-### 🚀 Full Version
+### Full Version
 -   ✅ **WiFi Deauther**: Included
 -   ✅ **Evil Twin**: **UNLIMITED**
 -   ✅ **Beacon Spam**: Included
